@@ -1,4 +1,4 @@
-import HeroPage from "../pages/hero/HeroPage";
+import HeroPage from "../sections/hero/HeroPage";
 import Navbar from "../ui/Navbar";
 
 function Home() {

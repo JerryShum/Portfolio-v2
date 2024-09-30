@@ -14,16 +14,16 @@ function Navbar() {
          <ul className="flex gap-3 font-serif font-bold text-xl">
             <li>
                <Link>Works</Link>
-               <span>,</span>
             </li>
+            <li>|</li>
             <li>
                <Link>About</Link>
-               <span>,</span>
             </li>
+            <li>|</li>
             <li>
                <Link>Contact</Link>
-               <span>,</span>
             </li>
+            <li>|</li>
          </ul>
       </nav>
    );
