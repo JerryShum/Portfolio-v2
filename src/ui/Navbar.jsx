@@ -23,7 +23,6 @@ function Navbar() {
             <li>
                <Link>Contact</Link>
             </li>
-            <li>|</li>
          </ul>
       </nav>
    );
