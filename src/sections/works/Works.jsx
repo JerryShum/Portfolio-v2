@@ -1,5 +1,5 @@
 function Works() {
-   return <div>works</div>;
+   return <section>Selected Works</section>;
 }
 
 export default Works;
