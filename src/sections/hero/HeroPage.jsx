@@ -1,6 +1,8 @@
+import "./HeroPage.css";
+
 function HeroPage() {
    return (
-      <section className="h-screen flex flex-col items-center justify-center gap-5">
+      <section className="h-screen flex flex-col items-center justify-center gap-5 bg-hero-bg">
          <h1 className="text-9xl font-bold font-serif flex items-center justify-center tracking-wider">
             Jerry Shum
          </h1>
