@@ -1,0 +1,6 @@
+.sectionbg {
+   background-size: cover;
+   background-position: center;
+   background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(0, 0, 0) 90%),
+      url("/public/Wavy BG.png");
+}

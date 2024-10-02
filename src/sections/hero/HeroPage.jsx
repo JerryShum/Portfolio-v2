@@ -1,16 +1,18 @@
-import "./HeroPage.css";
+import styles from "./HeroPage.module.css";
 
 function HeroPage() {
-   return (
-      <section className="h-screen flex flex-col items-center justify-center gap-5 bg-hero-bg">
-         <h1 className="text-9xl font-bold font-serif flex items-center justify-center tracking-wider">
-            Jerry Shum
-         </h1>
-         <h2 className="font-serif font-semibold text-4xl tracking-wider">
-            welcome to the show
-         </h2>
-      </section>
-   );
+  return (
+    <section
+      className={`${styles.sectionbg} flex h-screen flex-col items-center justify-center gap-5`}
+    >
+      <h1 className="flex items-center justify-center font-serif text-9xl font-bold tracking-wider">
+        Jerry Shum
+      </h1>
+      <h2 className="font-serif text-4xl font-semibold tracking-wider">
+        welcome to the show
+      </h2>
+    </section>
+  );
 }
 
 export default HeroPage;
