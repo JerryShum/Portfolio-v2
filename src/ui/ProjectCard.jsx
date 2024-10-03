@@ -26,7 +26,7 @@ function ProjectCard({
       </div>
       <div className="flex items-end justify-between">
         <div>
-          <h4 className="font-serif text-2xl font-semibold text-slate-500">
+          <h4 className="font-serif text-2xl font-semibold text-slate-400">
             {category}
           </h4>
           <h3 className="font-serif text-4xl font-bold text-neutral-300">
