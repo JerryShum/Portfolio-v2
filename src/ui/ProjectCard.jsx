@@ -15,7 +15,7 @@ function ProjectCard({
         <img
           src={backgroundImage}
           alt="Background"
-          className="absolute left-0 top-0 z-10 h-full w-full object-cover opacity-70"
+          className="absolute left-0 top-0 z-10 h-full w-full object-cover opacity-100 brightness-75"
         />
         {/* Overlay Image */}
         <img
