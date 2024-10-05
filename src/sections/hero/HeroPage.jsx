@@ -11,6 +11,10 @@ function HeroPage() {
       <h2 className="font-serif text-4xl font-semibold tracking-wider">
         welcome to the show
       </h2>
+      <img
+        className="absolute bottom-24"
+        src="/public/🦆 icon _chevron bottom_.svg"
+      />
     </section>
   );
 }
