@@ -1,0 +1,18 @@
+[
+  {
+    "projectName": "Project 1",
+    "category": "Web Development",
+    "skills": ["HTML", "CSS", "React"],
+    "year": "2023",
+    "backgroundImage": "/public/paniz-gm-iZhjxPCxOEI-unsplash.jpg",
+    "projectImage": "/public/Designer.png"
+  },
+  {
+    "projectName": "Project 2",
+    "category": "Mobile App",
+    "skills": ["JavaScript", "React Native"],
+    "year": "2024",
+    "backgroundImage": "/public/paniz-gm-iZhjxPCxOEI-unsplash.jpg",
+    "projectImage": "/public/Designer.png"
+  }
+]
