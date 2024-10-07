@@ -1,9 +1,9 @@
-import HeroPage from "../sections/hero/HeroPage";
-import Navbar from "../ui/Navbar";
-import Overlay from "../ui/Overlay";
-import Works from "../sections/works/Works";
-import About from "../sections/about/About";
-import Footer from "../ui/Footer";
+import HeroPage from "../sections/hero/HeroPage.jsx";
+import Navbar from "../ui/Navbar.jsx";
+import Overlay from "../ui/Overlay.jsx";
+import Works from "../sections/works/Works.jsx";
+import About from "../sections/about/About.jsx";
+import Footer from "../ui/Footer.jsx";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 
