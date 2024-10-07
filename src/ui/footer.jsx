@@ -12,25 +12,19 @@ function Footer() {
       <div className="flex flex-col gap-5">
         <h3 className="text-xl underline">j.shum@outlook.com</h3>
         <div className="flex gap-5">
-          <a href="">
+          <a href="https://github.com/JerryShum" target="_blank">
             <img
               src="/public/icons/icons8-github-30.svg"
               alt="GitHub Icon"
               className="scale-125"
             />
           </a>
-          <a href="">
-            <img
-              src="/public/icons/icons8-instagram-30.svg"
-              alt="GitHub Icon"
-              className="scale-125"
-            />
-          </a>
-          <a href="">
+
+          <a href="https://www.linkedin.com/in/jerry-shum/" target="_blank">
             <img
               src="/public/icons/icons8-linkedin-2-30.svg"
               className="scale-125"
-              alt="GitHub Icon"
+              alt="LinkedIn Icon"
             />
           </a>
         </div>
