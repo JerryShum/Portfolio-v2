@@ -3,6 +3,7 @@ import Navbar from "../ui/Navbar";
 import Overlay from "../ui/Overlay";
 import Works from "../sections/works/Works";
 import About from "../sections/about/About";
+import Footer from "../ui/Footer";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <HeroPage />
       <Works />
       <About />
+      <Footer />
     </>
   );
 }

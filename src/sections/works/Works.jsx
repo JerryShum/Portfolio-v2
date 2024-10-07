@@ -7,7 +7,7 @@ function Works() {
 
   return (
     <section className={`mt-20 p-10`}>
-      <h2 className="mb-20 text-center font-serif text-8xl font-bold tracking-wider">
+      <h2 className="mb-20 text-center font-serif text-6xl font-bold tracking-wider">
         Selected Works
       </h2>
       <div className="flex">
