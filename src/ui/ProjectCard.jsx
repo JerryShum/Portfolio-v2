@@ -1,4 +1,7 @@
+import { useInView } from "react-intersection-observer";
 import SkillPill from "./SkillPill";
+
+import { useEffect } from "react";
 
 function ProjectCard({
   projectName = "Project Name",
@@ -7,9 +10,17 @@ function ProjectCard({
   year = "2024",
   backgroundImage = "/public/paniz-gm-iZhjxPCxOEI-unsplash.jpg",
   projectImage = "/public/Designer.png",
+  setProjectCount,
+  projectIndex,
 }) {
+  const { ref, inView, entry } = useInView({ threshold: 0.5 });
+
+  useEffect(() => {
+    if (inView) setProjectCount((projectCount) => projectIndex);
+  }, [inView, setProjectCount, projectIndex]);
+
   return (
-    <div>
+    <div ref={ref}>
       <div className="relative mb-5 h-screen w-full overflow-hidden rounded-lg">
         {/* Background Image */}
         <img
