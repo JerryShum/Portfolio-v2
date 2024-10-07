@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="absolute flex w-full items-center justify-between px-10 py-10">
+    <nav className="fixed top-0 flex w-full items-center justify-between px-10 py-10">
       <Link to={"/"}>
         <img src="../../public/Logo 3.png" alt="logo" className="h-[60px]" />
       </Link>
