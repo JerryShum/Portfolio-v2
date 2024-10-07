@@ -20,7 +20,7 @@ function ProjectCard({
   }, [inView, setProjectCount, projectIndex]);
 
   return (
-    <div ref={ref}>
+    <div ref={ref} className="overflow-hidden">
       <div className="relative mb-5 h-screen w-full overflow-hidden rounded-lg">
         {/* Background Image */}
         <img
