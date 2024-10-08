@@ -14,7 +14,7 @@ function FooterComponent() {
         <div className="flex gap-5">
           <a href="https://github.com/JerryShum" target="_blank">
             <img
-              src="/public/icons/icons8-github-30.svg"
+              src="/icons/icons8-github-30.svg"
               alt="GitHub Icon"
               className="scale-125"
             />
@@ -22,7 +22,7 @@ function FooterComponent() {
 
           <a href="https://www.linkedin.com/in/jerry-shum/" target="_blank">
             <img
-              src="/public/icons/icons8-linkedin-2-30.svg"
+              src="/icons/icons8-linkedin-2-30.svg"
               className="scale-125"
               alt="LinkedIn Icon"
             />

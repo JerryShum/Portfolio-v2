@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/public/noise.png"); /* Path to your noise texture */
+  background-image: url("/noise.png"); /* Path to your noise texture */
   background-size: 120px; /* Adjust the size of the noise */
   background-repeat: repeat; /* Repeat the noise texture */
   background-blend-mode: multiply; /* Blend with the background color */

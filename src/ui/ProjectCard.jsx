@@ -8,8 +8,8 @@ function ProjectCard({
   category = "Category",
   skills = ["HTML", "CSS", "React"],
   year = "2024",
-  backgroundImage = "/public/paniz-gm-iZhjxPCxOEI-unsplash.jpg",
-  projectImage = "/public/Designer.png",
+  backgroundImage = "/paniz-gm-iZhjxPCxOEI-unsplash.jpg",
+  projectImage = "/Designer.png",
   setProjectCount,
   projectIndex,
 }) {

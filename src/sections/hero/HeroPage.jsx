@@ -13,7 +13,7 @@ function HeroPage() {
       </h2>
       <img
         className="absolute bottom-24"
-        src="/public/icons/🦆 icon _chevron bottom_.svg"
+        src="/icons/🦆 icon _chevron bottom_.svg"
       />
     </section>
   );
