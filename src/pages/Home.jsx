@@ -3,7 +3,7 @@ import Navbar from "../ui/Navbar.jsx";
 import Overlay from "../ui/Overlay.jsx";
 import Works from "../sections/works/Works.jsx";
 import About from "../sections/about/About.jsx";
-import Footer from "../ui/Footer.jsx";
+import FooterComponent from "../ui/FooterComponent.jsx";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 
@@ -36,7 +36,7 @@ function Home() {
       <HeroPage />
       <Works />
       <About />
-      <Footer />
+      <FooterComponent />
     </motion.div>
   );
 }

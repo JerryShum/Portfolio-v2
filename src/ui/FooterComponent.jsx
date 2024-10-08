@@ -1,4 +1,4 @@
-function Footer() {
+function FooterComponent() {
   return (
     <div className="bg- mt-20 flex min-h-[40vh] flex-col justify-between bg-gradient-to-b from-black to-blue-900 px-60 pb-10">
       <div className="flex flex-col items-center gap-10">
@@ -33,4 +33,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default FooterComponent;
