@@ -34,7 +34,7 @@ function ProjectCard({
           className="absolute left-1/2 top-1/2 z-20 h-[85%] w-[85%] -translate-x-1/2 -translate-y-1/2 transform rounded-lg object-cover opacity-100 md:h-[90%] md:w-[90%]"
         />
       </div>
-      <div className="flex flex-col items-start justify-start md:flex-row">
+      <div className="flex flex-col items-start justify-start md:flex-row md:justify-between">
         <div className="mb-4 md:mb-0">
           <h4 className="font-serif text-xl font-semibold text-slate-400 md:text-2xl">
             {category}
