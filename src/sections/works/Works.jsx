@@ -7,12 +7,12 @@ function Works() {
   const [projectCount, setProjectCount] = useState(1);
 
   return (
-    <section className={`px- mt-20 p-10 px-60`}>
-      <h2 className="mb-20 text-center font-serif text-6xl font-bold tracking-wider">
+    <section className="mt-20 p-4 sm:p-10 xl:px-60">
+      <h2 className="mb-10 text-center font-serif text-4xl font-bold tracking-wider sm:mb-20 sm:text-6xl">
         Selected Works
       </h2>
-      <div className="flex">
-        <div className="sticky top-10 flex basis-5/12 self-start text-[300px] leading-tight tracking-tighter">
+      <div className="flex flex-col lg:flex-row">
+        <div className="sticky top-10 mb-10 hidden basis-full self-start text-6xl leading-tight tracking-tighter sm:text-[300px] lg:mb-0 lg:flex lg:basis-5/12">
           <span className="relative">0</span>
           <div className="relative">
             <AnimatePresence>
@@ -32,7 +32,7 @@ function Works() {
             </AnimatePresence>
           </div>
         </div>
-        <div className="no-scrollbar-x grow space-y-24 rounded-lg">
+        <div className="no-scrollbar-x grow space-y-12 rounded-lg sm:space-y-24">
           {projectsData.map((project, index) => (
             <ProjectCard
               {...project}

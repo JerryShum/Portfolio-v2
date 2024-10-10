@@ -1,6 +1,5 @@
 import { useInView } from "react-intersection-observer";
 import SkillPill from "./SkillPill";
-
 import { useEffect } from "react";
 
 function ProjectCard({
@@ -21,7 +20,7 @@ function ProjectCard({
 
   return (
     <div ref={ref} className="overflow-hidden">
-      <div className="relative mb-5 h-screen w-full overflow-hidden rounded-lg">
+      <div className="relative mb-5 h-96 w-full overflow-hidden rounded-lg md:h-screen">
         {/* Background Image */}
         <img
           src={backgroundImage}
@@ -32,19 +31,19 @@ function ProjectCard({
         <img
           src={projectImage}
           alt="Project"
-          className="absolute left-1/2 top-1/2 z-20 h-[85%] w-[85%] -translate-x-1/2 -translate-y-1/2 transform rounded-lg object-cover opacity-100"
+          className="absolute left-1/2 top-1/2 z-20 h-[85%] w-[85%] -translate-x-1/2 -translate-y-1/2 transform rounded-lg object-cover opacity-100 md:h-[90%] md:w-[90%]"
         />
       </div>
-      <div className="flex items-end justify-between">
-        <div>
-          <h4 className="font-serif text-2xl font-semibold text-slate-400">
+      <div className="flex flex-col items-start justify-start md:flex-row">
+        <div className="mb-4 md:mb-0">
+          <h4 className="font-serif text-xl font-semibold text-slate-400 md:text-2xl">
             {category}
           </h4>
-          <h3 className="font-serif text-4xl font-bold text-neutral-300">
+          <h3 className="font-serif text-2xl font-bold text-neutral-300 md:text-4xl">
             {projectName}
           </h3>
         </div>
-        <div className="flex gap-4">
+        <div className="flex flex-wrap gap-2 md:gap-4">
           {skills.map((skill) => (
             <SkillPill skill={skill} key={skill} />
           ))}
