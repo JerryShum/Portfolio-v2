@@ -4,7 +4,7 @@
     "category": "Web Development",
     "skills": ["HTML", "CSS", "React"],
     "year": "2023",
-    "backgroundImage": "/paniz-gm-iZhjxPCxOEI-unsplash.jpg",
+    "backgroundImage": "/background/paniz-gm-iZhjxPCxOEI-unsplash.jpg",
     "projectImage": "/Designer.png"
   },
   {
@@ -12,7 +12,7 @@
     "category": "Mobile App",
     "skills": ["JavaScript", "React Native"],
     "year": "2024",
-    "backgroundImage": "/paniz-gm-iZhjxPCxOEI-unsplash.jpg",
+    "backgroundImage": "/background/paniz-gm-iZhjxPCxOEI-unsplash.jpg",
     "projectImage": "/Designer.png"
   }
 ]
