@@ -31,8 +31,6 @@ function Home() {
       transition={{ duration: 1 }}
       onAnimationComplete={enableScroll} // Re-enable scrolling after animation completes
     >
-      <Overlay />
-      <Navbar />
       <HeroPage />
       <Works />
       <About />
