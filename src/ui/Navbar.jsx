@@ -9,7 +9,7 @@ function Navbar() {
 
       <ul className="flex flex-col gap-3 font-serif text-lg font-bold md:flex-row md:text-xl">
         <li>
-          <Link to="/works">Works</Link>
+          <Link to="/projects">Projects</Link>
         </li>
         <li className="hidden md:block">|</li>
         <li>
