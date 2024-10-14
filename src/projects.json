@@ -5,7 +5,8 @@
     "skills": ["HTML", "CSS", "React"],
     "year": "2023",
     "backgroundImage": "/background/paniz-gm-iZhjxPCxOEI-unsplash.jpg",
-    "projectImage": "/Designer.png"
+    "projectImage": "/Designer.png",
+    "description": "A modern web application built using React, showcasing dynamic content and responsive design."
   },
   {
     "projectName": "Project 2",
@@ -13,6 +14,34 @@
     "skills": ["JavaScript", "React Native"],
     "year": "2024",
     "backgroundImage": "/background/paniz-gm-iZhjxPCxOEI-unsplash.jpg",
-    "projectImage": "/Designer.png"
+    "projectImage": "/Designer.png",
+    "description": "A cross-platform mobile app developed with React Native, offering seamless user experience on both iOS and Android."
+  },
+  {
+    "projectName": "Project 3",
+    "category": "Data Science",
+    "skills": ["Python", "Pandas", "M/L"],
+    "year": "2022",
+    "backgroundImage": "/background/paniz-gm-iZhjxPCxOEI-unsplash.jpg",
+    "projectImage": "/Designer.png",
+    "description": "A data analysis project utilizing Python and Pandas to derive insights from large datasets, incorporating machine learning models."
+  },
+  {
+    "projectName": "Project 4",
+    "category": "Game Development",
+    "skills": ["C#", "Unity"],
+    "year": "2021",
+    "backgroundImage": "/background/paniz-gm-iZhjxPCxOEI-unsplash.jpg",
+    "projectImage": "/Designer.png",
+    "description": "An immersive 3D game developed using Unity and C#, featuring advanced graphics and interactive gameplay."
+  },
+  {
+    "projectName": "Project 5",
+    "category": "DevOps",
+    "skills": ["Docker", "Kubernetes", "CI/CD"],
+    "year": "2023",
+    "backgroundImage": "/background/paniz-gm-iZhjxPCxOEI-unsplash.jpg",
+    "projectImage": "/Designer.png",
+    "description": "A DevOps project focused on automating deployment pipelines using Docker and Kubernetes, ensuring continuous integration and delivery."
   }
 ]
