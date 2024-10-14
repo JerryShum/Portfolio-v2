@@ -1,23 +1,37 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
+  const location = useLocation();
+
   return (
     <nav className="absolute top-0 z-30 flex w-full items-center justify-between px-4 py-4 md:px-10 md:py-10">
       <Link to={"/"}>
         <img src="/Logo 3.png" alt="logo" className="h-[40px] md:h-[60px]" />
       </Link>
 
-      <ul className="flex flex-col gap-3 font-serif text-lg font-bold md:flex-row md:text-xl">
+      <ul className="flex flex-col gap-3 font-serif text-lg font-bold md:text-xl lg:flex-row">
         <li>
-          <Link to="/projects">Projects</Link>
+          {location.pathname === "/projects" ? (
+            <Link to="/">Home</Link>
+          ) : (
+            <Link to="/projects">Projects</Link>
+          )}
         </li>
-        <li className="hidden md:block">|</li>
+        <li className="hidden lg:block">|</li>
         <li>
-          <Link to="/about">About</Link>
+          {location.pathname === "/about" ? (
+            <Link to="/">Home</Link>
+          ) : (
+            <Link to="/about">About</Link>
+          )}
         </li>
-        <li className="hidden md:block">|</li>
+        <li className="hidden lg:block">|</li>
         <li>
-          <Link to="/contact">Contact</Link>
+          {location.pathname === "/contact" ? (
+            <Link to="/">Home</Link>
+          ) : (
+            <Link to="/contact">Contact</Link>
+          )}
         </li>
       </ul>
     </nav>
