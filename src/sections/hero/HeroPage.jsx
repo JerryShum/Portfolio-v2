@@ -1,4 +1,5 @@
 import styles from "./HeroPage.module.css";
+import { motion } from "framer-motion";
 
 function HeroPage() {
   return (
@@ -12,10 +13,12 @@ function HeroPage() {
         welcome to the show
       </h2>
 
-      <img
+      <motion.img
         className="absolute bottom-12 md:bottom-16 lg:bottom-24"
         src="/icons/🦆 icon _chevron bottom_.svg"
         alt="Chevron Icon"
+        animate={{ y: [0, 20, 0] }}
+        transition={{ repeat: Infinity, duration: 1 }}
       />
     </section>
   );
