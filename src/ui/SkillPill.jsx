@@ -1,10 +1,10 @@
 function SkillPill({ skill, year }) {
   return (
     <div
-      className={`text-md lg:text-md rounded-full border-2 p-2 text-center font-semibold uppercase md:px-4 md:py-2 lg:border-[3px] lg:px-3 lg:py-3 xl:text-xl ${
+      className={`rounded-full border px-2 py-1 text-center text-base font-semibold uppercase lg:border-[1px] lg:py-2 ${
         skill
           ? "border-slate-400 text-slate-400" // Style for skill
-          : "border-b-neutral-300 text-neutral-500" // Style for year
+          : "border-b-neutral-300 text-neutral-400" // Style for year
       } `}
     >
       {skill ? skill : year}
