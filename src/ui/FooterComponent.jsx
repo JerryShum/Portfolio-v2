@@ -1,6 +1,6 @@
 function FooterComponent() {
   return (
-    <div className="bg- mt-20 flex min-h-[40vh] flex-col justify-between bg-gradient-to-b from-black to-blue-900 px-10 pb-10 md:px-20 lg:px-40 xl:px-60">
+    <div className="mt-20 flex min-h-[40vh] flex-col justify-between bg-gradient-to-b from-black to-blue-900 px-10 pb-10 md:px-20 lg:px-40 xl:px-60">
       <div className="flex flex-col items-center gap-10">
         <h1 className="text-center font-serif text-3xl font-semibold md:text-4xl lg:text-5xl xl:text-6xl">
           Let's work together!
