@@ -1,6 +1,6 @@
 [
   {
-    "projectName": "Project 1",
+    "projectName": "Eco Expenses",
     "category": "Web Development",
     "skills": ["HTML", "CSS", "React"],
     "year": "2023",
@@ -34,14 +34,5 @@
     "backgroundImage": "/background/paniz-gm-iZhjxPCxOEI-unsplash.jpg",
     "projectImage": "/Designer.png",
     "description": "An immersive 3D game developed using Unity and C#, featuring advanced graphics and interactive gameplay."
-  },
-  {
-    "projectName": "Project 5",
-    "category": "DevOps",
-    "skills": ["Docker", "Kubernetes", "CI/CD"],
-    "year": "2023",
-    "backgroundImage": "/background/paniz-gm-iZhjxPCxOEI-unsplash.jpg",
-    "projectImage": "/Designer.png",
-    "description": "A DevOps project focused on automating deployment pipelines using Docker and Kubernetes, ensuring continuous integration and delivery."
   }
 ]
