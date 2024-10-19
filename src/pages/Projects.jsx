@@ -1,4 +1,5 @@
 import ProjectsGrid from "../sections/projectsgrid/ProjectsGrid";
+import FooterComponent from "../ui/FooterComponent";
 import PageHeading from "../ui/PageHeading";
 
 function Projects() {
@@ -6,6 +7,7 @@ function Projects() {
     <>
       <PageHeading>Recent Projects</PageHeading>
       <ProjectsGrid />
+      <FooterComponent />
     </>
   );
 }
