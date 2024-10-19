@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AppLayout from "./ui/AppLayout.jsx";
 import Error404 from "./pages/Error404.jsx";
 import Projects from "./pages/Projects.jsx";
+import ProjectDetail from "./sections/projectsgrid/ProjectDetail.jsx";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/projects",
         element: <Projects />,
+      },
+      {
+        path: "/projects/:projectName",
+        element: <ProjectDetail />,
       },
     ],
   },
