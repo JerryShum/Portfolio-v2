@@ -4,6 +4,7 @@ import PageHeading from "../../ui/PageHeading";
 import { motion } from "framer-motion";
 import Button from "../../ui/Button";
 import FooterComponent from "../../ui/FooterComponent";
+import SkillPill from "../../ui/SkillPill";
 
 function ProjectDetail() {
   const { projectID } = useParams();
@@ -36,8 +37,11 @@ function ProjectDetail() {
           </p>
           <p className="w-full border-b py-1 text-start text-sm font-semibold uppercase text-blue-300 md:text-base lg:text-lg xl:text-xl">
             Skills:{" "}
-            <span className="block text-sm font-normal capitalize text-white md:text-base lg:text-lg">
-              {project.skills}
+            <span className="block space-x-4 text-sm font-normal capitalize text-white md:text-base lg:text-lg">
+              {/* {project.skills.map((skill) => (
+                <SkillPill skill={skill} />
+              ))} */}
+              {project.skills.join(", ")}
             </span>
           </p>
           <p className="w-full border-b py-1 text-start text-sm font-semibold uppercase text-red-300 md:text-base lg:text-lg xl:text-xl">
