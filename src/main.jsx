@@ -7,6 +7,7 @@ import AppLayout from "./ui/AppLayout.jsx";
 import Error404 from "./pages/Error404.jsx";
 import Projects from "./pages/Projects.jsx";
 import ProjectDetail from "./sections/projectsgrid/ProjectDetail.jsx";
+import AboutPage from "./pages/AboutPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/projects/:projectID",
         element: <ProjectDetail />,
+      },
+      {
+        path: "/about",
+        element: <AboutPage />,
       },
     ],
   },
