@@ -20,7 +20,7 @@ function ProjectCard({
 
   return (
     <div ref={ref} className="overflow-hidden">
-      <div className="relative mb-5 h-96 w-full overflow-hidden rounded-lg md:h-screen">
+      <div className="relative mb-5 h-[50vh] w-full overflow-hidden rounded-lg lg:h-screen">
         {/* Background Image */}
         <img
           src={backgroundImage}
