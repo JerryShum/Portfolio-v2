@@ -11,13 +11,13 @@ function Works() {
       <h2 className="mb-10 text-center font-serif text-4xl font-bold tracking-wider sm:mb-20 sm:text-6xl">
         Selected Works
       </h2>
-      <div className="flex flex-col lg:flex-row">
-        <div className="sticky top-10 mb-10 hidden basis-full self-start text-6xl leading-tight tracking-tighter sm:text-[300px] lg:mb-0 lg:flex lg:basis-5/12">
-          <span className="relative">0</span>
+      <div className="flex flex-col md:flex-row">
+        <div className="sticky top-10 mb-10 hidden basis-full self-start text-6xl leading-tight tracking-tighter md:flex md:basis-4/12 md:text-[150px] lg:mb-0 lg:basis-5/12 lg:text-[250px] xl:text-[300px]">
+          <span className="relative font-serif">0</span>
           <div className="relative">
             <AnimatePresence>
               <motion.span
-                className="absolute"
+                className="absolute font-serif"
                 key={projectCount} // Use projectCount as a key to trigger the animation
                 initial={{ opacity: 0, y: "-20%" }} // Start slightly above and invisible
                 animate={{ opacity: 1, y: 0 }} // Fade in and move to original position
