@@ -32,8 +32,8 @@ function Home() {
       onAnimationComplete={enableScroll} // Re-enable scrolling after animation completes
     >
       <HeroPage />
-      <Works />
       <About />
+      <Works />
       <FooterComponent />
     </motion.div>
   );
