@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-function LinkAnimation({ children, destination }) {
+function LinkAnimation({ children, destination, targetFlag }) {
   const DURATION = 0.25;
   const STAGGER = 0.025;
 
   return (
-    <Link to={destination}>
+    <Link to={destination} target={targetFlag ? "_blank" : ""}>
       <motion.div
         initial="initial"
         whileHover="hovered"
