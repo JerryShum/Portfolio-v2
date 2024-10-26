@@ -7,7 +7,7 @@ function Works() {
   const [projectCount, setProjectCount] = useState(1);
 
   return (
-    <section className="mt-20 p-4 sm:p-10 xl:px-40 2xl:px-60">
+    <section className="mb-40 mt-20 p-4 sm:p-10 xl:px-40 2xl:px-60">
       <h2 className="mb-10 text-center font-serif text-4xl font-bold tracking-wider sm:mb-20 sm:text-6xl">
         Selected Works
       </h2>
