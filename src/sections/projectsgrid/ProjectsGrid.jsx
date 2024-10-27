@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function ProjectsGrid() {
   return (
     <motion.div
-      className="my-10 grid grid-rows-2 gap-3 px-5 lg:grid-cols-2 lg:gap-5 lg:px-20 xl:px-60"
+      className="my-10 grid grid-rows-2 gap-3 px-5 lg:my-20 lg:grid-cols-2 lg:gap-5 lg:px-20 xl:px-60"
       initial={{
         opacity: 0,
       }}
