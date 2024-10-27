@@ -19,16 +19,16 @@ function FooterComponent() {
             Menu
           </h2>
           <ul className="mt-4 flex flex-col gap-2">
-            <li>
+            <li className="font-sans">
               <LinkAnimation destination={"/"}>Home</LinkAnimation>
             </li>
-            <li>
+            <li className="font-sans">
               <LinkAnimation destination={"/about"}>About</LinkAnimation>
             </li>
-            <li>
+            <li className="font-sans">
               <LinkAnimation destination={"/projects"}>Projects</LinkAnimation>
             </li>
-            <li>
+            <li className="font-sans">
               <LinkAnimation destination={"/contact"}>Contact</LinkAnimation>
             </li>
           </ul>
@@ -38,7 +38,7 @@ function FooterComponent() {
             Socials
           </h2>
           <ul className="mt-4 flex flex-col gap-2">
-            <li>
+            <li className="font-sans">
               <LinkAnimation
                 destination={"https://github.com/JerryShum"}
                 targetFlag={true}
@@ -46,7 +46,7 @@ function FooterComponent() {
                 GitHub
               </LinkAnimation>
             </li>
-            <li>
+            <li className="font-sans">
               <LinkAnimation
                 destination={"https://www.linkedin.com/in/jerry-shum/"}
                 targetFlag={true}
@@ -54,7 +54,7 @@ function FooterComponent() {
                 LinkedIn
               </LinkAnimation>
             </li>
-            <li>
+            <li className="font-sans">
               <LinkAnimation
                 destination={"https://devpost.com/JerryShum"}
                 targetFlag={true}
