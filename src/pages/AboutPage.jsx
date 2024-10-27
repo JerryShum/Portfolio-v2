@@ -1,10 +1,9 @@
 import PageHeading from "../ui/Layout/PageHeading";
 import FooterComponent from "../ui/Layout/FooterComponent";
-import PageWrapper from "../ui/Layout/PageWrapper";
 
 function AboutPage() {
   return (
-    <PageWrapper>
+    <>
       <PageHeading>About Jerry</PageHeading>
       <div className="mt-10 flex flex-col items-center gap-10">
         <div className="w-[90vw] md:w-[60vw] lg:w-[45vw] xl:w-[30vw]">
@@ -62,7 +61,7 @@ function AboutPage() {
       </div>
 
       <FooterComponent />
-    </PageWrapper>
+    </>
   );
 }
 

@@ -1,6 +1,5 @@
 import Button from "../ui/Button";
 import Overlay from "../ui/Layout/Overlay";
-import PageWrapper from "../ui/Layout/PageWrapper";
 
 function Error404() {
   return (
