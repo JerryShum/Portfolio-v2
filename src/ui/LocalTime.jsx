@@ -32,7 +32,7 @@ const TimeDisplay = () => {
       <h2 className="border-b pb-2 font-serif text-xl font-semibold md:text-2xl">
         Local Time
       </h2>
-      <h3 className="mt-4 tracking-wider">{localTime}, TOR</h3>
+      <h3 className="font-sans mt-4 tracking-wider">{localTime}, TOR</h3>
     </div>
   );
 };

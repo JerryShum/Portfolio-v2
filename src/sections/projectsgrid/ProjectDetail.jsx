@@ -23,30 +23,30 @@ function ProjectDetail() {
           className="col-span-11 rounded-[30px] lg:col-span-6 lg:mb-0"
         />
         <div className="col-span-11 flex flex-col items-center gap-6 rounded-[30px] p-4 md:p-6 lg:col-span-5 xl:px-10 xl:py-6">
-          <p className="w-full border-b py-1 text-start text-sm font-semibold uppercase text-yellow-300 md:text-base lg:text-lg xl:text-xl">
+          <p className="w-full border-b py-1 text-start font-serif text-sm font-semibold uppercase text-yellow-300 md:text-base lg:text-lg xl:text-xl">
             Category:{" "}
-            <span className="block text-sm font-normal capitalize text-white md:text-base lg:text-lg">
+            <span className="font-sans block text-sm font-normal capitalize text-white md:text-base lg:text-lg">
               {project.category}
             </span>
           </p>
-          <p className="w-full border-b py-1 text-start text-sm font-semibold uppercase text-green-300 md:text-base lg:text-lg xl:text-xl">
+          <p className="w-full border-b py-1 text-start font-serif text-sm font-semibold uppercase text-green-300 md:text-base lg:text-lg xl:text-xl">
             Year:{" "}
-            <span className="block text-sm font-normal capitalize text-white md:text-base lg:text-lg">
+            <span className="font-sans block text-sm font-normal capitalize text-white md:text-base lg:text-lg">
               {project.year}
             </span>
           </p>
-          <p className="w-full border-b py-1 text-start text-sm font-semibold uppercase text-blue-300 md:text-base lg:text-lg xl:text-xl">
+          <p className="w-full border-b py-1 text-start font-serif text-sm font-semibold uppercase text-blue-300 md:text-base lg:text-lg xl:text-xl">
             Skills:{" "}
-            <span className="block space-x-4 text-sm font-normal capitalize text-white md:text-base lg:text-lg">
+            <span className="font-sans block space-x-4 text-sm font-normal capitalize text-white md:text-base lg:text-lg">
               {/* {project.skills.map((skill) => (
                 <SkillPill skill={skill} />
               ))} */}
               {project.skills.join(", ")}
             </span>
           </p>
-          <p className="w-full border-b py-1 text-start text-sm font-semibold uppercase text-red-300 md:text-base lg:text-lg xl:text-xl">
+          <p className="w-full border-b py-1 text-start font-serif text-sm font-semibold uppercase text-red-300 md:text-base lg:text-lg xl:text-xl">
             Description:{" "}
-            <span className="block text-sm font-normal capitalize text-white md:text-base lg:text-lg">
+            <span className="font-sans block text-sm font-normal capitalize text-white md:text-base lg:text-lg">
               {project.description}
             </span>
           </p>
