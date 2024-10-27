@@ -5,11 +5,11 @@ import PageWrapper from "../ui/Layout/PageWrapper";
 
 function Projects() {
   return (
-    <PageWrapper>
+    <>
       <PageHeading>Recent Projects</PageHeading>
       <ProjectsGrid />
       <FooterComponent />
-    </PageWrapper>
+    </>
   );
 }
 

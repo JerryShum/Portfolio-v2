@@ -4,7 +4,7 @@ import PageWrapper from "../ui/Layout/PageWrapper";
 
 function Error404() {
   return (
-    <PageWrapper>
+    <>
       <Overlay />
       <div className="grid min-h-screen grid-cols-1 content-center justify-items-center bg-[url('/background/404bg.png')] bg-cover bg-center">
         <h1 className="font-serif text-9xl">404</h1>
@@ -13,7 +13,7 @@ function Error404() {
         </h2>
         <Button>Go Back</Button>
       </div>
-    </PageWrapper>
+    </>
   );
 }
 

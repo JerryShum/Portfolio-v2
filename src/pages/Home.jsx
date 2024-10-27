@@ -6,24 +6,10 @@ import FooterComponent from "../ui/Layout/FooterComponent.jsx";
 
 import { useEffect } from "react";
 import PageWrapper from "../ui/Layout/PageWrapper.jsx";
-
-// Function to disable scrolling
-const disableScroll = () => {
-  document.body.style.overflow = "hidden";
-};
-
-// Function to enable scrolling
-const enableScroll = () => {
-  document.body.style.overflow = "auto";
-};
+import { useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 
 function Home() {
-  useEffect(() => {
-    disableScroll();
-
-    // Cleanup function to enable scrolling after the animation ends
-    return () => enableScroll();
-  }, []);
   return (
     <PageWrapper>
       <HeroPage />
