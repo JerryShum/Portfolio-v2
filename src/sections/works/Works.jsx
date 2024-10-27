@@ -18,13 +18,13 @@ function Works() {
             <AnimatePresence>
               <motion.span
                 className="absolute font-serif"
-                key={projectCount} // Use projectCount as a key to trigger the animation
-                initial={{ opacity: 0, y: "-20%" }} // Start slightly above and invisible
-                animate={{ opacity: 1, y: 0 }} // Fade in and move to original position
-                exit={{ opacity: 0, y: "20%" }} // Move down slightly and fade out
+                key={projectCount}
+                initial={{ opacity: 0, y: "-20%" }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: "20%" }}
                 transition={{
-                  duration: 0.75, // Set duration for the transitions
-                  ease: [0.68, -0.55, 0.27, 1.55], // Apply a custom easing function for smoothness
+                  duration: 0.75,
+                  ease: [0.68, -0.55, 0.27, 1.55],
                 }}
               >
                 {projectCount}.
