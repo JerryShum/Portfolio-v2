@@ -9,7 +9,7 @@ function AboutPage() {
       <div className="mt-10 flex flex-col items-center gap-10">
         <div className="w-[90vw] md:w-[60vw] lg:w-[45vw] xl:w-[30vw]">
           <img
-            src="/public/Jerry_OEC_Placeholder.jpeg"
+            src="/Jerry_OEC_Placeholder.jpeg"
             className="w-full rounded-lg"
           />
         </div>
