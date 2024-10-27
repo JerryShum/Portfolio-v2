@@ -4,11 +4,12 @@ import { ReactLenis } from "lenis/react";
 import Home from "./pages/Home.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import AppLayout from "./ui/AppLayout.jsx";
+import AppLayout from "./ui/Layout/AppLayout.jsx";
 import Error404 from "./pages/Error404.jsx";
 import Projects from "./pages/Projects.jsx";
 import ProjectDetail from "./sections/projectsgrid/ProjectDetail.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
+import { AnimatePresence } from "framer-motion";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ReactLenis root>
       <RouterProvider router={router} />
+      <AnimatePresence mode="wait"></AnimatePresence>
     </ReactLenis>
   </StrictMode>,
 );

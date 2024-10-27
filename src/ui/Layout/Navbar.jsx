@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import LinkAnimation from "./LinkAnimation";
+import LinkAnimation from "../LinkAnimation";
 
 function Navbar() {
   const location = useLocation();

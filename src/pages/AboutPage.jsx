@@ -1,9 +1,10 @@
-import PageHeading from "../ui/PageHeading";
-import FooterComponent from "../ui/FooterComponent";
+import PageHeading from "../ui/Layout/PageHeading";
+import FooterComponent from "../ui/Layout/FooterComponent";
+import PageWrapper from "../ui/Layout/PageWrapper";
 
 function AboutPage() {
   return (
-    <>
+    <PageWrapper>
       <PageHeading>About Jerry</PageHeading>
       <div className="mt-10 flex flex-col items-center gap-10">
         <div className="w-[90vw] md:w-[60vw] lg:w-[45vw] xl:w-[30vw]">
@@ -55,13 +56,13 @@ function AboutPage() {
           </p>
           <p className="text-xl tracking-wide">
             Thanks for visiting my corner of the web! Feel free to reach out or
-            take a look at my resume to learn more about my journey so far.
+            take a look at my resume to learn more about my journey so far. 😁
           </p>
         </div>
       </div>
 
       <FooterComponent />
-    </>
+    </PageWrapper>
   );
 }
 

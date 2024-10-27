@@ -1,6 +1,6 @@
-import Button from "./Button.jsx";
-import LinkAnimation from "./LinkAnimation.jsx";
-import LocalTime from "./LocalTime.jsx";
+import Button from "../Button.jsx";
+import LinkAnimation from "../LinkAnimation.jsx";
+import LocalTime from "../LocalTime.jsx";
 
 function FooterComponent() {
   return (

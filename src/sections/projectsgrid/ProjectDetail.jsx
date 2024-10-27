@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
 import projectsData from "../../projects.json";
-import PageHeading from "../../ui/PageHeading";
+import PageHeading from "../../ui/Layout/PageHeading";
 import { motion } from "framer-motion";
 import Button from "../../ui/Button";
-import FooterComponent from "../../ui/FooterComponent";
+import FooterComponent from "../../ui/Layout/FooterComponent";
 import SkillPill from "../../ui/SkillPill";
 
 function ProjectDetail() {
