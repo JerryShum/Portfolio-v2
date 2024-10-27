@@ -12,7 +12,7 @@ function ProjectCard({
   setProjectCount,
   projectIndex,
 }) {
-  const { ref, inView, entry } = useInView({ threshold: 0.5 });
+  const { ref, inView, entry } = useInView({ threshold: 0.66 });
 
   useEffect(() => {
     if (inView) setProjectCount((projectCount) => projectIndex);
