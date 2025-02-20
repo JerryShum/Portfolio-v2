@@ -10,7 +10,7 @@ function HeroPage() {
         Jerry Shum
       </h1>
       <h2 className="font-serif text-2xl font-semibold tracking-wider md:text-3xl lg:text-4xl">
-        welcome to the show
+        Step Inside My World of Technology and Creation
       </h2>
 
       <motion.img
