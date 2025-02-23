@@ -2,16 +2,20 @@ import Button from "../Button.jsx";
 import LinkAnimation from "../LinkAnimation.jsx";
 import LocalTime from "../LocalTime.jsx";
 
-function FooterComponent() {
+function FooterComponent({ contactPage }) {
   return (
     <div className="mt-20 flex min-h-[40vh] flex-col justify-between bg-gradient-to-b from-black to-blue-900 px-10 pb-10 md:px-10 lg:px-40 xl:px-60">
       {/* Heading  */}
-      <div className="mb-12 flex flex-col items-center gap-10">
-        <h1 className="text-center font-serif text-3xl font-semibold md:text-4xl lg:text-5xl xl:text-6xl">
-          Let's work together!
-        </h1>
-        <Button>Contact Me</Button>
-      </div>
+      {!contactPage ? (
+        <div className="mb-12 flex flex-col items-center gap-10">
+          <h1 className="text-center font-serif text-3xl font-semibold md:text-4xl lg:text-5xl xl:text-6xl">
+            Let's work together!
+          </h1>
+          <Button>Contact Me</Button>
+        </div>
+      ) : (
+        <div className="mt-20"></div>
+      )}
       {/* Application Menu: */}
       <div className="mb-12 grid grid-cols-12 gap-4 md:gap-6">
         <div className="col-span-6 flex flex-col">
