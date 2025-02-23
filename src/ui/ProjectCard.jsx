@@ -2,6 +2,8 @@ import { useInView } from "react-intersection-observer";
 import SkillPill from "./SkillPill";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import { useLenis } from "lenis/react";
 
 function ProjectCard({
   projectName = "Project Name",
@@ -14,6 +16,12 @@ function ProjectCard({
   projectIndex,
   id,
 }) {
+  const { ref, inView, entry } = useInView({ threshold: 0.66 });
+  useEffect(() => {
+    if (inView) setProjectCount((projectCount) => projectIndex);
+  }, [inView, setProjectCount, projectIndex]);
+
+  //! Custom Cursor
   const [isHovering, setIsHovering] = useState(false);
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
 
@@ -21,21 +29,16 @@ function ProjectCard({
     setCursorPosition({ x: e.clientX, y: e.clientY });
   };
 
-  const { ref, inView, entry } = useInView({ threshold: 0.66 });
-
-  useEffect(() => {
-    if (inView) setProjectCount((projectCount) => projectIndex);
-  }, [inView, setProjectCount, projectIndex]);
+  //! Lenis
+  const lenis = useLenis();
 
   return (
     <div ref={ref} className="overflow-hidden">
       <Link
+        className="cursor-none"
         to={`/projects/${id}`}
         onClick={() => {
-          window.scrollTo({
-            top: 0,
-            behavior: "instant",
-          });
+          lenis?.scrollTo(0, { immediate: true });
         }}
       >
         <div
@@ -47,7 +50,7 @@ function ProjectCard({
         >
           {isHovering && (
             //! CUSTOM CURSOR FOR HOVERING OVER IMAGE
-            <div
+            <motion.div
               className="custom-cursor pointer-events-none fixed z-50 flex h-20 w-20 -translate-x-1/2 -translate-y-1/2 transform items-center justify-center rounded-full bg-white mix-blend-difference"
               style={{
                 left: `${cursorPosition.x}px`,
@@ -55,17 +58,33 @@ function ProjectCard({
                 transition: "transform 0.2s ease-out",
                 willChange: "transform",
               }}
+              animate={{
+                scale: [1, 1.3, 1],
+              }}
+              transition={{
+                duration: 2,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
             >
-              <svg
+              <motion.svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
                 className="text-black"
+                animate={{
+                  scaleY: [1, 0.1, 1],
+                }}
+                transition={{
+                  duration: 1.5,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
               >
                 <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
-              </svg>
-            </div>
+              </motion.svg>
+            </motion.div>
           )}
           {/* Background Gradient */}
           <div className="absolute left-0 top-0 z-10 h-full w-full bg-[linear-gradient(to_bottom_right,#111827_30%,#1e81b0_70%,#063970_100%)]" />
