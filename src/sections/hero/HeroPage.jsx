@@ -9,7 +9,7 @@ function HeroPage() {
       <h1 className="flex items-center justify-center font-serif text-5xl font-bold tracking-wider md:text-7xl lg:text-9xl">
         Jerry Shum
       </h1>
-      <h2 className="font-serif text-2xl font-semibold tracking-wider md:text-3xl lg:text-4xl">
+      <h2 className="text-center font-serif text-2xl font-semibold tracking-wider md:text-3xl lg:text-4xl">
         Step Inside My World of Technology and Creation
       </h2>
 
