@@ -1,17 +1,18 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { useLenis } from "lenis/react";
 
 function ProjectsHoverCard({ project }) {
   const DURATION = 0.25;
   const STAGGER = 0.025;
+
+  const lenis = useLenis();
+
   return (
     <Link
       to={`/projects/${project.id}`}
       onClick={() => {
-        window.scrollTo({
-          top: 0,
-          behavior: "instant",
-        });
+        lenis?.scrollTo(0, { immediate: true });
       }}
     >
       <motion.div
