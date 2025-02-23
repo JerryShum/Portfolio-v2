@@ -5,7 +5,15 @@ function ProjectsHoverCard({ project }) {
   const DURATION = 0.25;
   const STAGGER = 0.025;
   return (
-    <Link to={`/projects/${project.id}`}>
+    <Link
+      to={`/projects/${project.id}`}
+      onClick={() => {
+        window.scrollTo({
+          top: 0,
+          behavior: "instant",
+        });
+      }}
+    >
       <motion.div
         className="relative cursor-pointer overflow-hidden rounded-lg transition-all duration-300 lg:rounded-xl"
         whileHover="hovered"
