@@ -1,15 +1,16 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { ReactLenis } from "lenis/react";
-import Home from "./pages/Home.jsx";
+import { AnimatePresence } from "framer-motion";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AppLayout from "./ui/Layout/AppLayout.jsx";
 import Error404 from "./pages/Error404.jsx";
+import Home from "./pages/Home.jsx";
 import Projects from "./pages/Projects.jsx";
 import ProjectDetail from "./sections/projectsgrid/ProjectDetail.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
-import { AnimatePresence } from "framer-motion";
+import Contact from "./pages/Contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <AboutPage />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
     ],
   },
