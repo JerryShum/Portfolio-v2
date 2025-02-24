@@ -33,7 +33,7 @@ function Works() {
           </div>
         </div>
         <div className="no-scrollbar-x grow space-y-12 rounded-lg sm:space-y-24">
-          {projectsData.map((project, index) => (
+          {projectsData.slice(0, 4).map((project, index) => (
             <ProjectCard
               {...project}
               key={index}
