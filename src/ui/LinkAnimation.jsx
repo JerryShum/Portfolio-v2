@@ -1,12 +1,21 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { useLenis } from "lenis/react";
 
 function LinkAnimation({ children, destination, targetFlag }) {
   const DURATION = 0.25;
   const STAGGER = 0.025;
 
+  const lenis = useLenis();
+
   return (
-    <Link to={destination} target={targetFlag ? "_blank" : ""}>
+    <Link
+      to={destination}
+      target={targetFlag ? "_blank" : ""}
+      onClick={() => {
+        lenis?.scrollTo(0, 1);
+      }}
+    >
       <motion.div
         initial="initial"
         whileHover="hovered"
