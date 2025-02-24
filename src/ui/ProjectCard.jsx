@@ -59,10 +59,10 @@ function ProjectCard({
                 willChange: "transform",
               }}
               animate={{
-                scale: [1, 1.3, 1],
+                scale: [1, 0.9, 1],
               }}
               transition={{
-                duration: 2,
+                duration: 1.5,
                 repeat: Infinity,
                 ease: "easeInOut",
               }}
