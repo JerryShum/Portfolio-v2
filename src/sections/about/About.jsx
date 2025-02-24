@@ -13,13 +13,8 @@ function About() {
       id: 2,
       title: "Challenge Embracer",
       description:
-        "Viewing obstacles as opportunities for growth. Each complex problem is a chance to expand my skills and discover new perspectives in software development.",
-      skills: [
-        "Problem Solving",
-        "Resilience",
-        "Adaptability",
-        "Critical Thinking",
-      ],
+        "Viewing obstacles as opportunities for growth. Each complex problem is a chance to expand my skills and discover new perspectives in software development. I also love participating in hackathons and engineering competitions!",
+      skills: ["Problem Solving", "Resilience", "Adaptability", "Competitive"],
     },
     {
       id: 3,
