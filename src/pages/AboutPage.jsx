@@ -16,13 +16,15 @@ function AboutPage() {
           <p className="text-xl tracking-wide">
             <span className="text-blue-500">Hello! </span>I’m Jerry, a 4th-year
             Software Engineering student at{" "}
-            <span className="bg-gradient-to-r from-blue-700 from-20% to-orange-700 bg-clip-text text-transparent">
-              OntarioTech University
-            </span>
-            , and I’m currently exploring the fascinating intersection of tech
-            and business as an{" "}
-            <span className="bg-gradient-to-r from-gray-500 to-red-700 bg-clip-text text-transparent">
-              IT Business Application Developer intern at Celestica
+            <span className="underline">OntarioTech University</span>, and I’m
+            currently exploring the fascinating intersection of tech and
+            business as an{" "}
+            <span className="underline">
+              IT Business Application Developer Intern
+            </span>{" "}
+            at{" "}
+            <span className="bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">
+              Celestica
             </span>
             .
           </p>
@@ -51,7 +53,7 @@ function AboutPage() {
           <p className="text-xl tracking-wide">
             When I’m not coding, you can likely find me exploring new
             technologies, reading a nice book, playing exciting video games, or
-            enjoying a good coffee.
+            enjoying a good coffee ☕.
           </p>
           <p className="text-xl tracking-wide">
             Thanks for visiting my corner of the web! Feel free to reach out or
