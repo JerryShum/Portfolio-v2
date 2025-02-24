@@ -1,12 +1,13 @@
 [
   {
-    "projectName": "Eco Expenses",
+    "projectName": "Blabber - Blog Platform",
     "category": "Web Development",
-    "skills": ["HTML", "CSS", "React"],
-    "year": "2023",
-    "projectImage": "/Designer.png",
-    "description": "A modern web application built using React, showcasing dynamic content and responsive design.",
-    "id": "eco-expenses"
+    "skills": ["TypeScript", "Next.JS", "Prisma ORM", "Auth.js"],
+    "year": "2025",
+    "projectImage": "/blabber-project.png",
+    "description": "Minimalistic blog platform built with Next.js, featuring dynamic routing, markdown support, and server-side rendering for seamless content delivery.",
+    "id": "blabber",
+    "url": "https://www.ecoexpenses.com"
   },
   {
     "projectName": "Project 2",
