@@ -2,30 +2,32 @@
   {
     "projectName": "Blabber",
     "category": "Web Development",
-    "skills": ["TypeScript", "Next.JS", "Prisma ORM", "Auth.js"],
+    "skills": ["TypeScript", "Next.JS", "Prisma", "Auth.js", "Shadcn/UI"],
     "year": "2025",
     "projectImage": "/blabber-project.png",
     "description": "Minimalistic blog platform built with Next.js, featuring dynamic routing, markdown support, and server-side rendering for seamless content delivery.",
     "id": "blabber",
-    "url": "https://www.ecoexpenses.com"
+    "url": "https://github.com/JerryShum/blabber"
   },
   {
-    "projectName": "Project 2",
-    "category": "Mobile App",
-    "skills": ["JavaScript", "React Native"],
+    "projectName": "NDC Tracker",
+    "category": "Full-Stack Application",
+    "skills": ["Python", "Docker", "Next.JS", "Leaflet JS"],
+    "year": "2025",
+    "projectImage": "/ndc_trak-project.png",
+    "description": "National Disaster's Canada(NDC) Tracker is a fully encompassing web application where the community can report disasters and catagorize them. This application allows the public to view, report, and edit disasters within a chosen geographical location.",
+    "id": "NDC Tracker",
+    "url": "https://github.com/JerryShum/OEC_2025"
+  },
+  {
+    "projectName": "Discord TTS Bot",
+    "category": "Chatbot",
+    "skills": ["Python", "Discord TTS", "ElevenLabs API", "Docker"],
     "year": "2024",
-    "projectImage": "/Designer.png",
-    "description": "A cross-platform mobile app developed with React Native, offering seamless user experience on both iOS and Android.",
-    "id": "project-2"
-  },
-  {
-    "projectName": "Project 3",
-    "category": "Data Science",
-    "skills": ["Python", "Pandas", "M/L"],
-    "year": "2022",
-    "projectImage": "/Designer.png",
-    "description": "A data analysis project utilizing Python and Pandas to derive insights from large datasets, incorporating machine learning models.",
-    "id": "project-3"
+    "projectImage": "/discord-vc-project.png",
+    "description": "A Discord bot that reads messages from a specified text channel and plays them as audio in a voice channel. It supports both Discord’s built-in TTS and ElevenLabs API for custom AI-generated voices.",
+    "id": "discord-tts-bot",
+    "url": "https://github.com/JerryShum/vc-discord-bot"
   },
   {
     "projectName": "Project 4",
