@@ -106,7 +106,7 @@ function ProjectCard({
             {projectName}
           </h3>
         </div>
-        <div className="flex flex-wrap gap-2 md:gap-4">
+        <div className="flex max-w-[60%] flex-wrap gap-2 md:gap-4">
           {skills.map((skill) => (
             <SkillPill skill={skill} key={skill} />
           ))}

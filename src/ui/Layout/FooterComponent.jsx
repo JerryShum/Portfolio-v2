@@ -11,7 +11,7 @@ function FooterComponent({ contactPage }) {
           <h1 className="text-center font-serif text-3xl font-semibold md:text-4xl lg:text-5xl xl:text-6xl">
             Let's work together!
           </h1>
-          <Button>Contact Me</Button>
+          <Button URL={"/contact"}>Contact Me</Button>
         </div>
       ) : (
         <div className="mt-20"></div>
