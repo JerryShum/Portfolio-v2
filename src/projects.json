@@ -30,12 +30,13 @@
     "url": "https://github.com/JerryShum/vc-discord-bot"
   },
   {
-    "projectName": "Project 4",
-    "category": "Game Development",
-    "skills": ["C#", "Unity"],
-    "year": "2021",
-    "projectImage": "/Designer.png",
-    "description": "An immersive 3D game developed using Unity and C#, featuring advanced graphics and interactive gameplay.",
-    "id": "project-4"
+    "projectName": "Next Task Tracker",
+    "category": "Full-Stack Application",
+    "skills": ["Next.JS", "Supabase", "Tailwind CSS", "React"],
+    "year": "2024",
+    "projectImage": "/task-tracker-project.png",
+    "description": "Personal learning project for modern web development with Next.js and Supabase. Through building this task tracker, I explored key concepts such as server-side rendering, API integration, dynamic routing, and database management.",
+    "id": "task-tracker",
+    "url": "https://github.com/JerryShum/task-tracker"
   }
 ]
