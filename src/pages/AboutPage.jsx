@@ -57,7 +57,16 @@ function AboutPage() {
           </p>
           <p className="text-xl tracking-wide">
             Thanks for visiting my corner of the web! Feel free to reach out or
-            take a look at my resume to learn more about my journey so far. 😁
+            take a look at my{" "}
+            <a
+              href="/Jerry_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline transition-colors hover:text-blue-700"
+            >
+              resume
+            </a>{" "}
+            to learn more about my journey so far. 😁
           </p>
         </div>
       </div>
